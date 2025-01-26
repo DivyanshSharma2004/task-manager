@@ -2,10 +2,21 @@ const express = require('express');
 const multer = require('multer'); // Multer is used to handle file uploads
 const fs = require('fs');
 const Joi = require('joi');
+const path = require('path'); // Import the path module
 const app = express();
 
 // Set up multer for file upload
 const upload = multer({ dest: 'uploads/' });
+
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, '../client/build')));
+
+
+// Catch-all handler for React routing
+app.get('/', function(req, res){
+    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+});
 
 //schema
 const schema = Joi.object({
