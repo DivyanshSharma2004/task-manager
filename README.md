@@ -1,11 +1,11 @@
-#Task Manager Application
-###(Work in Progress)
+# Task Manager Application
+### (Work in Progress)
 
-##Introduction
+## Introduction
 
 This is a task manager application designed to help users organize their daily activities, set priorities, and track progress. The app will feature task categorization, deadline tracking, and an intuitive user interface to enhance productivity.
 
-##Features (Planned)
+## Features (Planned)
 
 ** Add and Edit Tasks: **Create tasks with customizable descriptions and deadlines.
 ** Task Categories:** Organize tasks into categories like Work, Personal, or Urgent.
@@ -14,7 +14,7 @@ This is a task manager application designed to help users organize their daily a
 
 
 
-##Tech Stack
+## Tech Stack
 Frontend: React.js
 Backend: Node.js and Express
 Database: MongoDB
@@ -44,7 +44,7 @@ Database: MongoDB
    cd client
   npm install
 
-##Running the Application
+## Running the Application
 1.Start the backend+frontend:
 npm  start
 Open your browser and go to: http://localhost/3000
@@ -53,7 +53,7 @@ Open your browser and go to: http://localhost/3000
 ---
 
 
-##Progress
+## Progress
 
 Current Progress: ~20%
 
@@ -61,11 +61,10 @@ Completed backend setup and basic routes.
 
 Basic frontend layout done using React.js.
 
-###Next Steps:
+### Next Steps:
 
 Build task creation and display functionality.
 Add oauth and mongo db configuration
 
-###Vision and Aspirations
+### Vision and Aspirations
 This project aims to showcase my ability using react.js and node.js
-
