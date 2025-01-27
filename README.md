@@ -32,7 +32,7 @@ Database: MongoDB
 
 ### Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/task-manager.git
+   git clone https://github.com/DivyanshSharma2004/task-manager.git
    cd task-manager
 
 2. Install backend dependencies:
