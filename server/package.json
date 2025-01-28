@@ -21,6 +21,8 @@
   "homepage": "https://github.com/DivyanshSharma2004/task-manager#readme",
   "dependencies": {
     "express": "^4.21.2",
-    "path": "^0.12.7"
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "punycode": "^2.3.1"
   }
 }
